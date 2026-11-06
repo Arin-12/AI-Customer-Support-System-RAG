@@ -1,0 +1,3 @@
+SHIPPING POLICY — SYNTHETIC ELECTRONICS MARKETPLACE
+
+Orders move through processing, shipment, and delivery. Tracking may be available after shipment. Expected delivery dates are stored with each order. If the expected date has passed and the order is undelivered, it may be treated as delayed. Address changes may be possible before shipment. Live order status and tracking must come from PostgreSQL.

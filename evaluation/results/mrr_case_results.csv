@@ -1,0 +1,9 @@
+query,expected_sources,retrieved_sources,first_relevant_rank,reciprocal_rank,k
+What is the return policy for damaged electronics?,damaged_product_policy.txt,damaged_product_policy.txt;faq.csv;faq.csv;faq.csv;refund_policy.txt,1,1.0,5
+What is the general return policy?,return_policy.txt,return_policy.txt;return_policy.txt;faq.csv;faq.csv;faq.csv,1,1.0,5
+How do refunds work after a return?,refund_policy.txt,refund_policy.txt;faq.csv;faq.csv;faq.csv;faq.csv,1,1.0,5
+Can I exchange a product I purchased?,exchange_policy.txt,exchange_policy.txt;faq.csv;faq.csv;faq.csv;faq.csv,1,1.0,5
+How can I cancel my order?,cancellation_policy.txt,cancellation_policy.txt;faq.csv;faq.csv;faq.csv;faq.csv,1,1.0,5
+How can I track my shipment and delivery?,shipping_policy.txt,shipping_policy.txt;faq.csv;faq.csv;faq.csv;faq.csv,1,1.0,5
+What payment methods and payment rules are supported?,payment_policy.txt,payment_policy.txt;faq.csv;faq.csv;faq.csv;faq.csv,1,1.0,5
+What are the specifications of the Apple MacBook Air M2?,product_information.csv,product_information.csv;product_information.csv;product_information.csv;product_information.csv;product_information.csv,1,1.0,5

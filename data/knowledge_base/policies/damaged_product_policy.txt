@@ -1,0 +1,3 @@
+DAMAGED AND DEFECTIVE PRODUCT POLICY — SYNTHETIC ELECTRONICS MARKETPLACE
+
+Customers should report damage or defects promptly after delivery. They should provide the order ID, product name, issue description, and evidence when requested. The system should verify that the product belongs to the customer's order using PostgreSQL. Physical damage, serial-number mismatch, missing accessories, activation issues, and suspected defects may require manual inspection. Verified cases may qualify for replacement, exchange, refund, or warranty handling.

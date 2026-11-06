@@ -1,0 +1,51 @@
+product_id,brand,product_name,category,variant,price_inr,description,source_name,source_url,stock_quantity,status
+PROD001,Apple,iPhone 16,Smartphone,128 GB,79900,Apple iPhone 16,Official manufacturer/store reference,https://www.apple.com/in/shop/buy-iphone/iphone-16,33,active
+PROD002,Apple,iPhone 16 Plus,Smartphone,128 GB,89900,Apple iPhone 16 Plus,Official manufacturer/store reference,https://www.apple.com/in/shop/buy-iphone/iphone-16,46,active
+PROD003,Apple,iPhone 16 Pro,Smartphone,128 GB,109900,Apple iPhone 16 Pro,Official manufacturer/store reference,https://www.apple.com/in/shop/buy-iphone,59,active
+PROD004,Apple,iPhone 16 Pro Max,Smartphone,256 GB,144900,Apple iPhone 16 Pro Max,Official manufacturer/store reference,https://www.apple.com/in/shop/buy-iphone,72,active
+PROD005,Apple,iPhone 15,Smartphone,128 GB,69900,Apple iPhone 15,Official manufacturer/store reference,https://www.apple.com/in/shop/buy-iphone,85,active
+PROD006,Apple,MacBook Air M3,Laptop,13-inch 8GB 256GB,114900,MacBook Air with Apple M3,Official manufacturer/store reference,https://www.apple.com/in/macbook-air/,98,active
+PROD007,Apple,MacBook Air M2,Laptop,13-inch 8GB 256GB,99900,MacBook Air with Apple M2,Official manufacturer/store reference,https://www.apple.com/in/macbook-air/,21,active
+PROD008,Apple,MacBook Pro 14-inch M4,Laptop,16GB 512GB,169900,14-inch MacBook Pro with Apple M4,Official manufacturer/store reference,https://www.apple.com/in/macbook-pro/,34,active
+PROD009,Apple,iPad Air M2,Tablet,11-inch 128GB,59900,iPad Air with Apple M2,Official manufacturer/store reference,https://www.apple.com/in/ipad-air/,47,active
+PROD010,Apple,iPad 10th Generation,Tablet,64GB,34900,10th-generation iPad,Official manufacturer/store reference,https://www.apple.com/in/ipad-10.9/,60,active
+PROD011,Apple,AirPods Pro 2,Earbuds,USB-C,24900,AirPods Pro with active noise cancellation,Official manufacturer/store reference,https://www.apple.com/in/airpods-pro/,73,active
+PROD012,Apple,AirPods 4,Earbuds,Standard,12900,AirPods 4 wireless earbuds,Official manufacturer/store reference,https://www.apple.com/in/airpods-4/,86,active
+PROD013,Apple,Apple Watch Series 10,Smartwatch,GPS,46900,Apple Watch Series 10,Official manufacturer/store reference,https://www.apple.com/in/apple-watch-series-10/,99,active
+PROD014,Samsung,Galaxy S25,Smartphone,12GB 256GB,84999,Samsung Galaxy S25,Official manufacturer/store reference,https://www.samsung.com/in/smartphones/galaxy-s25/buy/,22,active
+PROD015,Samsung,Galaxy S25 Ultra,Smartphone,12GB 256GB,129999,Samsung Galaxy S25 Ultra,Official manufacturer/store reference,https://www.samsung.com/in/smartphones/galaxy-s25-ultra/buy/,35,active
+PROD016,Samsung,Galaxy A17 5G,Smartphone,6GB 128GB,26999,Samsung Galaxy A17 5G,Official manufacturer/store reference,https://www.samsung.com/in/smartphones/galaxy-a17/buy/,48,active
+PROD017,Samsung,Galaxy F17 5G,Smartphone,4GB 128GB,22499,Samsung Galaxy F17 5G,Official manufacturer/store reference,https://www.samsung.com/in/smartphones/galaxy-f/,61,active
+PROD018,Samsung,Galaxy M17 5G,Smartphone,4GB 128GB,19999,Samsung Galaxy M17 5G,Official manufacturer/store reference,https://www.samsung.com/in/smartphones/,74,active
+PROD019,Samsung,Galaxy Tab S10 FE+,Tablet,Wi-Fi 8GB,68999,Samsung Galaxy Tab S10 FE+,Official manufacturer/store reference,https://www.samsung.com/in/tablets/,87,active
+PROD020,Samsung,Galaxy Buds4 Pro,Earbuds,Wireless,22999,Samsung Galaxy Buds4 Pro,Official manufacturer/store reference,https://www.samsung.com/in/,100,active
+PROD021,Samsung,Galaxy Watch9,Smartwatch,Bluetooth,37999,Samsung Galaxy Watch9,Official manufacturer/store reference,https://www.samsung.com/in/watches/,23,active
+PROD022,Samsung,Galaxy Watch Ultra2,Smartwatch,LTE,69999,Samsung Galaxy Watch Ultra2,Official manufacturer/store reference,https://www.samsung.com/in/watches/,36,active
+PROD023,Samsung,Odyssey OLED G8,Monitor,32-inch class,149999,Samsung Odyssey OLED G8,Official manufacturer/store reference,https://www.samsung.com/in/monitors/,49,active
+PROD024,Samsung,Q-series Soundbar HW-Q800H,Soundbar,5.1.2ch,59900,Samsung Q-series soundbar,Official manufacturer/store reference,https://www.samsung.com/in/audio-devices/,62,active
+PROD025,Sony,WH-1000XM5,Headphones,Wireless ANC,29990,Sony WH-1000XM5,Official manufacturer/store reference,https://www.sony.co.in/,75,active
+PROD026,Sony,WF-1000XM5,Earbuds,Wireless ANC,24990,Sony WF-1000XM5,Official manufacturer/store reference,https://www.sony.co.in/,88,active
+PROD027,Sony,BRAVIA 3 55-inch,Television,55-inch 4K,79990,Sony BRAVIA 3 4K TV,Official manufacturer/store reference,https://www.sony.co.in/,101,active
+PROD028,Sony,PlayStation 5 Slim,Gaming Console,Disc Edition,54990,Sony PlayStation 5 Slim,Official manufacturer/store reference,https://www.playstation.com/en-in/,24,active
+PROD029,Sony,DualSense Wireless Controller,Gaming Accessory,PS5,6990,Sony DualSense controller,Official manufacturer/store reference,https://www.playstation.com/en-in/accessories/,37,active
+PROD030,Dell,Inspiron 14,Laptop,Core i5 class,69990,Dell Inspiron 14,Official manufacturer/store reference,https://www.dell.com/en-in/shop/,50,active
+PROD031,Dell,XPS 13,Laptop,13-inch,129990,Dell XPS 13,Official manufacturer/store reference,https://www.dell.com/en-in/shop/,63,active
+PROD032,Dell,G15 Gaming Laptop,Laptop,15-inch Gaming,89990,Dell G15 gaming laptop,Official manufacturer/store reference,https://www.dell.com/en-in/shop/,76,active
+PROD033,HP,Pavilion Plus 14,Laptop,14-inch,79990,HP Pavilion Plus 14,Official manufacturer/store reference,https://www.hp.com/in-en/shop/,89,active
+PROD034,HP,Victus 15,Laptop,15-inch Gaming,74990,HP Victus 15,Official manufacturer/store reference,https://www.hp.com/in-en/shop/,102,active
+PROD035,Lenovo,IdeaPad Slim 5,Laptop,15-inch class,69990,Lenovo IdeaPad Slim 5,Official manufacturer/store reference,https://www.lenovo.com/in/en/,25,active
+PROD036,Lenovo,LOQ 15,Laptop,15-inch Gaming,89990,Lenovo LOQ 15,Official manufacturer/store reference,https://www.lenovo.com/in/en/,38,active
+PROD037,Lenovo,Tab P12,Tablet,12.7-inch,29999,Lenovo Tab P12,Official manufacturer/store reference,https://www.lenovo.com/in/en/,51,active
+PROD038,Logitech,MX Master 3S,Mouse,Wireless,9995,Logitech MX Master 3S,Official manufacturer/store reference,https://www.logitech.com/,64,active
+PROD039,Logitech,MX Keys S,Keyboard,Wireless,10995,Logitech MX Keys S,Official manufacturer/store reference,https://www.logitech.com/,77,active
+PROD040,Logitech,G502 X,Gaming Mouse,Wired,7995,Logitech G502 X,Official manufacturer/store reference,https://www.logitechg.com/,90,active
+PROD041,JBL,Flip 6,Bluetooth Speaker,Portable,9999,JBL Flip 6,Official manufacturer/store reference,https://www.jbl.com/,103,active
+PROD042,JBL,Charge 5,Bluetooth Speaker,Portable,14999,JBL Charge 5,Official manufacturer/store reference,https://www.jbl.com/,26,active
+PROD043,JBL,Tune 770NC,Headphones,Wireless ANC,6999,JBL Tune 770NC,Official manufacturer/store reference,https://www.jbl.com/,39,active
+PROD044,OnePlus,OnePlus 13,Smartphone,12GB 256GB,69999,OnePlus 13,Official manufacturer/store reference,https://www.oneplus.in/,52,active
+PROD045,OnePlus,OnePlus Nord 4,Smartphone,8GB 128GB,29999,OnePlus Nord 4,Official manufacturer/store reference,https://www.oneplus.in/,65,active
+PROD046,Xiaomi,Xiaomi Pad 7,Tablet,8GB 128GB,27999,Xiaomi Pad 7,Official manufacturer/store reference,https://www.mi.com/in/,78,active
+PROD047,Xiaomi,Xiaomi 14 Civi,Smartphone,8GB 256GB,39999,Xiaomi 14 Civi,Official manufacturer/store reference,https://www.mi.com/in/,91,active
+PROD048,ASUS,ROG Zephyrus G14,Laptop,14-inch Gaming,149990,ASUS ROG Zephyrus G14,Official manufacturer/store reference,https://in.store.asus.com/,104,active
+PROD049,ASUS,Vivobook 15,Laptop,15-inch,59990,ASUS Vivobook 15,Official manufacturer/store reference,https://in.store.asus.com/,27,active
+PROD050,Amazon,Kindle Paperwhite,E-reader,16GB,16999,Amazon Kindle Paperwhite,Official manufacturer/store reference,https://www.amazon.in/,40,active

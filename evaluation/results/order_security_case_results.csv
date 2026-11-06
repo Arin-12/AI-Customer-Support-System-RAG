@@ -1,0 +1,5 @@
+case,test_type,expected,actual,no_private_details_on_denial,passed,note
+owner can access own order,mocked helper,allow,allow,N/A,True,Deterministic helper-level test; not an API test
+other customer is denied,mocked helper,deny,deny,True,True,Deterministic helper-level test; not an API test
+unknown order returns no details,mocked helper,not_found,not_found,N/A,True,Deterministic helper-level test; not an API test
+live database denies another customer,live database helper,deny without details,deny without details,True,True,Tests helper against configured database

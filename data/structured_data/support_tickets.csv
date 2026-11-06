@@ -1,0 +1,51 @@
+ticket_id,user_id,order_id,category,priority,status,customer_message,ai_response,created_at,updated_at
+TKT001,USR001,ORD1001,delivery,high,open,My order has not arrived yet.,,2026-09-02T10:00:00,2026-09-02T10:30:00
+TKT002,USR002,ORD1002,shipping,medium,open,Can you tell me when my order will arrive?,,2026-09-03T10:00:00,2026-09-03T10:30:00
+TKT003,USR003,ORD1003,cancellation,medium,open,I want to cancel my order.,,2026-09-04T10:00:00,2026-09-04T10:30:00
+TKT004,USR004,ORD1004,refund,high,open,The product I received was damaged. Can I get a refund?,,2026-09-05T10:00:00,2026-09-05T10:30:00
+TKT005,USR005,ORD1005,damaged_product,high,open,The device I received is defective.,,2026-09-06T10:00:00,2026-09-06T10:30:00
+TKT006,USR006,ORD1006,shipping,medium,open,Can I track my order?,,2026-09-07T10:00:00,2026-09-07T10:30:00
+TKT007,USR007,ORD1007,payment,medium,open,My payment failed while placing the order.,,2026-09-08T10:00:00,2026-09-08T10:30:00
+TKT008,USR008,ORD1008,return,medium,open,I want to return the product from my order.,,2026-09-09T10:00:00,2026-09-09T10:30:00
+TKT009,USR009,ORD1009,exchange,medium,open,Can I exchange this product for another configuration?,,2026-09-10T10:00:00,2026-09-10T10:30:00
+TKT010,USR010,ORD1010,delivery,low,closed,My order was delivered successfully.,Your request has been recorded and verified.,2026-09-11T10:00:00,2026-09-11T10:30:00
+TKT011,USR011,ORD1011,delivery,high,open,My order has not arrived yet.,,2026-09-12T10:00:00,2026-09-12T10:30:00
+TKT012,USR012,ORD1012,shipping,medium,open,Can you tell me when my order will arrive?,,2026-09-13T10:00:00,2026-09-13T10:30:00
+TKT013,USR013,ORD1013,cancellation,medium,open,I want to cancel my order.,,2026-09-14T10:00:00,2026-09-14T10:30:00
+TKT014,USR014,ORD1014,refund,high,open,The product I received was damaged. Can I get a refund?,,2026-09-15T10:00:00,2026-09-15T10:30:00
+TKT015,USR015,ORD1015,damaged_product,high,open,The device I received is defective.,,2026-09-16T10:00:00,2026-09-16T10:30:00
+TKT016,USR016,ORD1016,shipping,medium,open,Can I track my order?,,2026-09-17T10:00:00,2026-09-17T10:30:00
+TKT017,USR017,ORD1017,payment,medium,open,My payment failed while placing the order.,,2026-09-18T10:00:00,2026-09-18T10:30:00
+TKT018,USR018,ORD1018,return,medium,open,I want to return the product from my order.,,2026-09-19T10:00:00,2026-09-19T10:30:00
+TKT019,USR019,ORD1019,exchange,medium,open,Can I exchange this product for another configuration?,,2026-09-20T10:00:00,2026-09-20T10:30:00
+TKT020,USR020,ORD1020,delivery,low,closed,My order was delivered successfully.,Your request has been recorded and verified.,2026-09-01T10:00:00,2026-09-01T10:30:00
+TKT021,USR021,ORD1021,delivery,high,open,My order has not arrived yet.,,2026-09-02T10:00:00,2026-09-02T10:30:00
+TKT022,USR022,ORD1022,shipping,medium,open,Can you tell me when my order will arrive?,,2026-09-03T10:00:00,2026-09-03T10:30:00
+TKT023,USR023,ORD1023,cancellation,medium,open,I want to cancel my order.,,2026-09-04T10:00:00,2026-09-04T10:30:00
+TKT024,USR024,ORD1024,refund,high,open,The product I received was damaged. Can I get a refund?,,2026-09-05T10:00:00,2026-09-05T10:30:00
+TKT025,USR025,ORD1025,damaged_product,high,open,The device I received is defective.,,2026-09-06T10:00:00,2026-09-06T10:30:00
+TKT026,USR026,ORD1026,shipping,medium,open,Can I track my order?,,2026-09-07T10:00:00,2026-09-07T10:30:00
+TKT027,USR027,ORD1027,payment,medium,open,My payment failed while placing the order.,,2026-09-08T10:00:00,2026-09-08T10:30:00
+TKT028,USR028,ORD1028,return,medium,open,I want to return the product from my order.,,2026-09-09T10:00:00,2026-09-09T10:30:00
+TKT029,USR029,ORD1029,exchange,medium,open,Can I exchange this product for another configuration?,,2026-09-10T10:00:00,2026-09-10T10:30:00
+TKT030,USR030,ORD1030,delivery,low,closed,My order was delivered successfully.,Your request has been recorded and verified.,2026-09-11T10:00:00,2026-09-11T10:30:00
+TKT031,USR031,ORD1031,delivery,high,open,My order has not arrived yet.,,2026-09-12T10:00:00,2026-09-12T10:30:00
+TKT032,USR032,ORD1032,shipping,medium,open,Can you tell me when my order will arrive?,,2026-09-13T10:00:00,2026-09-13T10:30:00
+TKT033,USR033,ORD1033,cancellation,medium,open,I want to cancel my order.,,2026-09-14T10:00:00,2026-09-14T10:30:00
+TKT034,USR034,ORD1034,refund,high,open,The product I received was damaged. Can I get a refund?,,2026-09-15T10:00:00,2026-09-15T10:30:00
+TKT035,USR035,ORD1035,damaged_product,high,open,The device I received is defective.,,2026-09-16T10:00:00,2026-09-16T10:30:00
+TKT036,USR036,ORD1036,shipping,medium,open,Can I track my order?,,2026-09-17T10:00:00,2026-09-17T10:30:00
+TKT037,USR037,ORD1037,payment,medium,open,My payment failed while placing the order.,,2026-09-18T10:00:00,2026-09-18T10:30:00
+TKT038,USR038,ORD1038,return,medium,open,I want to return the product from my order.,,2026-09-19T10:00:00,2026-09-19T10:30:00
+TKT039,USR039,ORD1039,exchange,medium,open,Can I exchange this product for another configuration?,,2026-09-20T10:00:00,2026-09-20T10:30:00
+TKT040,USR040,ORD1040,delivery,low,closed,My order was delivered successfully.,Your request has been recorded and verified.,2026-09-01T10:00:00,2026-09-01T10:30:00
+TKT041,USR041,ORD1041,delivery,high,open,My order has not arrived yet.,,2026-09-02T10:00:00,2026-09-02T10:30:00
+TKT042,USR042,ORD1042,shipping,medium,open,Can you tell me when my order will arrive?,,2026-09-03T10:00:00,2026-09-03T10:30:00
+TKT043,USR043,ORD1043,cancellation,medium,open,I want to cancel my order.,,2026-09-04T10:00:00,2026-09-04T10:30:00
+TKT044,USR044,ORD1044,refund,high,open,The product I received was damaged. Can I get a refund?,,2026-09-05T10:00:00,2026-09-05T10:30:00
+TKT045,USR045,ORD1045,damaged_product,high,open,The device I received is defective.,,2026-09-06T10:00:00,2026-09-06T10:30:00
+TKT046,USR046,ORD1046,shipping,medium,open,Can I track my order?,,2026-09-07T10:00:00,2026-09-07T10:30:00
+TKT047,USR047,ORD1047,payment,medium,open,My payment failed while placing the order.,,2026-09-08T10:00:00,2026-09-08T10:30:00
+TKT048,USR048,ORD1048,return,medium,open,I want to return the product from my order.,,2026-09-09T10:00:00,2026-09-09T10:30:00
+TKT049,USR049,ORD1049,exchange,medium,open,Can I exchange this product for another configuration?,,2026-09-10T10:00:00,2026-09-10T10:30:00
+TKT050,USR050,ORD1050,delivery,low,closed,My order was delivered successfully.,Your request has been recorded and verified.,2026-09-11T10:00:00,2026-09-11T10:30:00

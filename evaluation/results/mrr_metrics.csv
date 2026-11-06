@@ -1,0 +1,2 @@
+metric,value,queries_evaluated,queries_with_relevant_source_in_top_5,k
+MRR@5,1.0,8,8,5

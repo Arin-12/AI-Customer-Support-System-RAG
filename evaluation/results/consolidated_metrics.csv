@@ -1,0 +1,29 @@
+﻿area,metric,target,actual,sample_size,status,limitations
+routing_escalation,Routing accuracy,>=95%,100.00%,11,MEETS TARGET,11 labelled routing scenarios; small sample
+routing_escalation,Escalation accuracy,>=95%,100.00%,4,MEETS TARGET,4 labelled escalation scenarios; small sample
+routing_escalation,Escalation precision,Measure baseline,100.00%,3,RECORDED,TP=3; FP=0
+routing_escalation,Escalation recall,Measure baseline,100.00%,3,RECORDED,TP=3; FN=0
+routing_escalation,Escalation F1,Measure baseline,100.00%,4,RECORDED,Harmonic mean of precision and recall
+policy,Verifier decision accuracy,Not specified,100.00%,10,RECORDED,Agreement with 10 labelled verifier cases; not end-to-end factual accuracy
+policy,Unsupported-claim acceptance rate,Not specified,0.00%,8,RECORDED,Lower is better; measured on labelled unsupported cases only
+policy,Supported-answer rejection rate,Not specified,0.00%,2,RECORDED,Lower is better; measured on labelled supported cases only
+order_security,Ownership scenario pass rate,100%,100.00%,4,PASS,Includes mocked helper cases; not end-to-end API security
+order_security,Unauthorized disclosures in tested helper cases,0,0,1,PASS,One mocked unauthorized-access case; API not tested
+conversation_isolation,Focused context-isolation test pass rate,100%,100%,3 tests,PRELIMINARY PASS,Previously executed pytest run: 3 passed; not a broad end-to-end leak assessment.
+retrieval,Precision@5,Measure baseline,54.17%,8 queries,RECORDED,Source-level precision: relevant unique sources divided by unique retrieved sources; small manually labelled sample.
+retrieval,Recall@5,>=90%,100.00%,8 queries,PRELIMINARY PASS,All 8 expected source files appeared in top 5; small manually labelled sample.
+retrieval,MRR@5,Measure baseline,100.00%,8 queries,RECORDED,Relevant source ranking metric at k=5; evaluation sample is small.
+retrieval,MRR@20,Measure baseline,55.43%,10 queries,RECORDED,Relevant source ranking metric at k=20; evaluation sample is small.
+retrieval_manual_judgments,Hit Rate@5 - existing retriever,Measure baseline,100.00%,8 queries,RECORDED,Existing hard-coded relevance judgments; not a fresh retrieval run.
+retrieval_manual_judgments,NDCG@5 - existing retriever,Measure baseline,97.11%,8 queries,RECORDED,Existing hard-coded graded relevance judgments; not a fresh ranking run.
+retrieval_manual_judgments,Hit Rate@5 - cross-encoder reranker,Measure baseline,100.00%,8 queries,RECORDED,Existing hard-coded relevance judgments; not a fresh reranking run.
+retrieval_manual_judgments,NDCG@5 - cross-encoder reranker,Measure baseline,95.20%,8 queries,RECORDED,Existing hard-coded graded relevance judgments; not a fresh reranking run.
+answer_quality,Mean ROUGE-1 F1,Measure baseline,0.2693,8 answers,RECORDED,Text overlap with reference answers. Similarity does not establish factual correctness.
+answer_quality,Mean ROUGE-2 F1,Measure baseline,0.1111,8 answers,RECORDED,Two-word phrase overlap with reference answers. Similarity does not establish factual correctness.
+answer_quality,Mean ROUGE-L F1,Measure baseline,0.2020,8 answers,RECORDED,Longest common word-sequence overlap with references. Similarity does not establish factual correctness.
+answer_quality,Mean BLEU,Measure baseline,0.0124,8 answers,RECORDED,N-gram overlap with reference answers; low scores can occur when valid answers are worded differently. Similarity does not establish factual correctness.
+performance,HTTP success rate,>=99%,100%,10 requests,BASELINE,Sequential requests; not a load test.
+performance,API error rate,<=1%,0%,10 requests,BASELINE,No non-200 responses observed in the original 10-request sample.
+performance,Mean response latency,Baseline first,1514.0 ms,10 requests,BASELINE,Previously measured sequential benchmark after warm-up.
+performance,Median response latency,Baseline first,1404.3 ms,10 requests,BASELINE,Previously measured sequential benchmark after warm-up.
+performance,Maximum observed latency,Baseline first,2568.5 ms,10 requests,BASELINE,Maximum of 10 samples; not a reliable p95 estimate.

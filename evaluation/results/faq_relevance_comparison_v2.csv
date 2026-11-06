@@ -1,0 +1,7 @@
+query,method,first_relevant_rank,reciprocal_rank
+I placed an order by mistake. Is there a way to stop it?,FAISS,1,1.0
+I placed an order by mistake. Is there a way to stop it?,Current retriever,1,1.0
+I placed an order by mistake. Is there a way to stop it?,Hybrid RRF 10,2,0.5
+My package has not arrived yet. Where can I check its status?,FAISS,1,1.0
+My package has not arrived yet. Where can I check its status?,Current retriever,1,1.0
+My package has not arrived yet. Where can I check its status?,Hybrid RRF 10,4,0.25

@@ -1,0 +1,11 @@
+query_number,query,expected_source,baseline_rank,current_retriever_rank,hybrid_rank,baseline_reciprocal_rank,current_reciprocal_rank,hybrid_reciprocal_rank
+1,A device arrived with a cracked screen. What should I do?,damaged_product_policy.txt,7,7,17,0.14285714285714285,0.14285714285714285,0.058823529411764705
+2,Can I send back an item if I changed my mind?,return_policy.txt,8,8,,0.125,0.125,0
+3,When should I expect my money back once a return is approved?,refund_policy.txt,3,1,3,0.3333333333333333,1.0,0.3333333333333333
+4,The model I bought is unsuitable. Can I swap it for another one?,exchange_policy.txt,9,9,16,0.1111111111111111,0.1111111111111111,0.0625
+5,I placed an order by mistake. Is there a way to stop it?,cancellation_policy.txt,12,12,9,0.08333333333333333,0.08333333333333333,0.1111111111111111
+6,My package has not arrived yet. Where can I check its status?,shipping_policy.txt,15,15,9,0.06666666666666667,0.06666666666666667,0.1111111111111111
+7,My card payment failed. Which payment options can I use?,payment_policy.txt,3,1,3,0.3333333333333333,1.0,0.3333333333333333
+8,What does the warranty cover if my gadget stops working?,warranty_policy.txt,1,1,6,1.0,1.0,0.16666666666666666
+9,What features and specifications does the MacBook Air M2 have?,product_information.csv,1,1,1,1.0,1.0,1.0
+10,Is there a deadline for returning an opened electronics item?,return_policy.txt,1,1,4,1.0,1.0,0.25

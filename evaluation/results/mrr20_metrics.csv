@@ -1,0 +1,2 @@
+metric,value,percentage,queries_evaluated,queries_with_relevant_source,k,evaluation_set
+MRR@20,0.5543,55.43,10,10,20,new_questions

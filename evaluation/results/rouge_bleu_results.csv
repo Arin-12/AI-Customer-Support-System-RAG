@@ -1,0 +1,111 @@
+﻿query,reference_answer,actual_answer,rouge1_f1,rouge2_f1,rougeL_f1,bleu
+What is the return policy for damaged electronics?,"Damaged or defective electronics should be reported to customer support for verification. Depending on the case and applicable policy, the customer may qualify for a replacement or refund.","**Return policy for damaged electronics**
+
+- **Report the issue** to our support team as soon as you notice the damage. Provide your order number and product details.  
+- Our support team will **determine the appropriate action**, which may be a return, a replacement, or a refund, depending on the verification results.  
+- **Eligibility** for a return or refund is assessed after we verify that the product is indeed damaged or defective and that it falls under the policy’s covered cases.  
+- If a refund is approved, it will be processed through the original payment method. The exact processing time depends on the verification steps and the payment provider.  
+
+If you need further assistance, please contact our support with your order information so we can begin the verification process.",0.3006535947712418,0.10596026490066225,0.16993464052287582,0.015810894233555896
+What is the general return policy?,"Eligible products may generally be returned within 7 days of delivery, subject to product condition and category rules. Electronics may require inspection of activation status, physical damage, and missing accessories.","**General Return Policy**
+
+- **Return window:** Eligible products can be returned within **7 days of delivery**.  
+- **Condition requirements:** Returns are accepted only if the item is in its original condition and complies with category‑specific rules.  
+- **Electronics inspection:** For electronic items, the return may be subject to:
+  - Verification of activation status  
+  - Check for physical damage  
+  - Confirmation that all accessories are present  
+  - Serial‑number verification  
+- **Required information:** When you request a return, you must provide:
+  - Order ID  
+  - Product name  
+  - Reason for the return  
+  - Any requested evidence (e.g., photos)  
+
+- **Refund not automatic:** Submitting a return request does **not** guarantee a refund. The return must be verified in the system before a refund can be processed.  
+
+If you have a specific order you’d like to return, please share the order ID and the details listed above so we can begin the verification process.",0.32748538011695905,0.15384615384615385,0.24561403508771928,0.012207923368505664
+How do refunds work after a return?,Approved refunds are normally sent through the original payment method. Refund timing depends on verification and the original payment provider.,"**How refunds work after a return**
+
+- **Eligibility check** – After you initiate a return, the order and our refund policy are verified to confirm that the return qualifies for a refund.  
+- **Refund method** – If the refund is approved, the amount is sent back through the original payment method you used for the purchase.  
+- **Timing** – The processing time varies. It depends on the verification process and the policies of the payment provider, so the exact duration can differ from case to case.  
+- **Tracking the refund** – You can check the status of your refund by contacting our support team or by looking at the transaction details in your payment system.  
+
+If you have any specific order details or need further assistance, please let us know so we can help you directly.",0.24324324324324326,0.09589041095890412,0.21621621621621623,0.025575535155056863
+Can I exchange a product I purchased?,"Eligible products may be exchanged subject to product condition and replacement availability. Model, storage, colour, or configuration changes depend on available inventory.","Yes, you can request an exchange, but it must meet the following conditions:
+
+- **Eligibility** – The product must be eligible for exchange under our policy (e.g., it is in acceptable condition and, for electronics, the serial number can be verified).  
+- **Replacement availability** – An exchange is possible only if the desired model, storage size, colour, or configuration is in stock.  
+- **Verification** – Our team will verify the product’s condition and serial number before approving the exchange.  
+
+If a suitable replacement is not available, the case may be resolved with an eligible refund or another alternative, as outlined in our exchange policy.  
+
+If you would like to start the exchange process, please provide your order details so we can check eligibility and stock availability.",0.23611111111111108,0.08450704225352113,0.19444444444444445,0.012129670324607688
+How can I cancel my order?,"Customers may request cancellation while an order remains in an eligible processing stage. Shipped orders may no longer be cancellable, and the return process may apply.","**How to Cancel Your Order**
+
+- **Check the order status**: Cancellation is only possible while the order is in an *eligible processing stage*. If the order has already been shipped, it can no longer be cancelled and you would need to follow the return process instead.  
+
+- **Request cancellation**:  
+  1. Contact our support team (via the website chat, email, or phone) and provide your order number.  
+  2. Ask the representative to verify the current status of the order.  
+
+- **If the order is eligible**:  
+  - The cancellation will stop any further processing or shipment.  
+  - Because the order is already paid, the cancellation will trigger our standard refund process.  
+
+- **If the order is not eligible or the status cannot be confirmed**:  
+  - The case will be escalated for further verification before any action is taken.  
+
+- **After a successful cancellation**:  
+  - The order will not proceed to delivery.  
+  - You may place a new order at any time if you still need the product.  
+
+If you need help locating your order number or have any other questions, please let us know so we can assist you further.",0.19607843137254902,0.10891089108910891,0.17647058823529413,0.010552413057932428
+How can I track my shipment and delivery?,"Tracking may be available after shipment. Customers can use their tracking number or contact support with their order ID. If delivery is delayed beyond the expected date, they should contact support.","**How to track your shipment and delivery**
+
+1. **Check if your order has been shipped**  
+   - An order is considered *shipped* once it has been handed over to the delivery process (see FAQ 023).  
+
+2. **Locate your tracking number**  
+   - After shipment, a tracking number is generated. You can find it in the shipping confirmation email or in your account order details.  
+
+3. **Use the tracking number**  
+   - Enter the tracking number on the carrier’s website (or the tracking link provided in the email) to see the current status and estimated delivery date.  
+
+4. **If you don’t have a tracking number**  
+   - Contact our support team and provide your **order ID**. We will retrieve the live order status and any available tracking information from our system.  
+
+5. **When the expected delivery date has passed**  
+   - If the delivery date stored with your order has passed and the order is still undelivered, the shipment may be delayed. In that case, reach out to support for assistance (see FAQ 013).  
+
+6. **Address changes**  
+   - If you need to change the delivery address, you can do so before the order reaches the shipment stage (see FAQ 023).  
+
+If you need further help, please provide your order ID and we’ll look up the tracking details for you.",0.1991701244813278,0.041841004184100423,0.14107883817427386,0.004053163624275655
+What payment methods and payment rules are supported?,"Supported payment methods are those displayed during checkout. Payments may fail because of incorrect details, bank restrictions, verification issues, insufficient funds, or payment gateway problems.","**Supported payment methods**  
+- The marketplace accepts only the payment options that are displayed at checkout.  
+
+**Payment rules & important notes**  
+
+- Payments may be declined for several reasons, including:  
+  - Incorrect card or payment details  
+  - Bank restrictions or verification issues  
+  - Insufficient funds  
+  - Problems with the payment gateway  
+
+- If a payment fails, a temporary authorization can be created. This hold is typically reversed by the payment provider after a short period.  
+
+- Any disputes or questions about a failed payment should be directed to our support team, as they may require human review.  ",0.37168141592920356,0.1981981981981982,0.3185840707964602,0.0082754676483087
+What are the specifications of the Apple MacBook Air M2?,"The Apple MacBook Air M2 is a laptop with a 13-inch variant, 8GB memory, and 256GB storage. Its reference price in the project product data is ₹99,900.","**Apple MacBook Air M2 – Available Details**
+
+- **Product name:** MacBook Air M2  
+- **Variant:** 13‑inch, 8 GB RAM, 256 GB SSD  
+- **Category:** Laptop  
+- **Reference price (INR):** 99,900  
+- **Description:** MacBook Air with Apple M2 processor  
+- **Features:** Real commercial product model; for full technical specifications, please refer to the manufacturer’s documentation.  
+- **Care instructions:** Follow Apple’s recommended guidelines for storage, charging, cleaning, and handling.  
+- **Warranty note:** Warranty terms depend on the manufacturer, model, seller, region, and purchase conditions.  
+
+*The detailed hardware specifications (CPU cores, graphics, display resolution, battery capacity, etc.) are not listed in our verified product data. For the complete spec sheet, please consult Apple’s official product documentation or the retailer’s website.*",0.2797202797202797,0.09929078014184398,0.15384615384615383,0.010776833540179505

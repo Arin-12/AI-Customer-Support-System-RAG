@@ -1,0 +1,4 @@
+metric,actual,numerator,denominator,note
+Verifier decision accuracy,100.00%,10,10,Agreement with 10 labelled verifier cases; not end-to-end factual accuracy
+Unsupported-claim acceptance rate,0.00%,0,8,Lower is better; measured on labelled unsupported cases only
+Supported-answer rejection rate,0.00%,0,2,Lower is better; measured on labelled supported cases only

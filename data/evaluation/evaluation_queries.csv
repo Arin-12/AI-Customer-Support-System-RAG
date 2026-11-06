@@ -1,0 +1,21 @@
+test_id,query,expected_tools,expected_intent,expected_sources
+TEST001,What is your return policy?,rag,return_policy,return_policy.txt
+TEST002,Can I return an opened laptop?,rag,return_policy,return_policy.txt
+TEST003,Can I exchange a phone for another model?,rag,exchange_policy,exchange_policy.txt
+TEST004,What payment methods do you support?,rag,payment_policy,payment_policy.txt
+TEST005,My phone arrived damaged. What should I do?,rag,damaged_product,damaged_product_policy.txt
+TEST006,How long does a refund take?,rag,refund_policy,refund_policy.txt
+TEST007,Where is order ORD1002?,postgresql,order_tracking,orders
+TEST008,What product is in order ORD1005?,postgresql,order_items,order_items
+TEST009,Why was order ORD1006 cancelled?,postgresql,order_status,orders
+TEST010,What is the status of order ORD1010?,postgresql,order_status,orders
+TEST011,My order ORD1005 contains a damaged product. Can I get a refund?,postgresql;rag,damaged_product_refund,damaged_product_policy.txt;refund_policy.txt
+TEST012,My order ORD1002 is delayed. Can I get a refund?,postgresql;rag,delayed_order_refund,shipping_policy.txt;refund_policy.txt
+TEST013,I bought the product in ORD1005 and want to return it. Am I eligible?,postgresql;rag,return_eligibility,return_policy.txt
+TEST014,The product in ORD1008 is defective. What should I do?,postgresql;rag,defective_product,damaged_product_policy.txt
+TEST015,Can I cancel ORD1004 and get my payment back?,postgresql;rag,cancellation_refund,cancellation_policy.txt;refund_policy.txt
+TEST016,broken phone money back?,rag,query_rewrite_damaged_refund,damaged_product_policy.txt;refund_policy.txt
+TEST017,I want to talk to a human.,ticket,human_escalation,support_tickets
+TEST018,Tell me something that is not in the knowledge base.,none,unanswerable,fallback
+TEST019,My card payment failed while ordering.,rag,payment_failure,payment_policy.txt
+TEST020,Can you confirm what product is in ORD1005?,postgresql,order_verification,order_items;products

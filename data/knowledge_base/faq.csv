@@ -1,0 +1,50 @@
+id,question,answer,category
+FAQ001,What is your return policy?,"Eligible electronics can generally be returned within the stated return period, subject to condition and category rules.",returns
+FAQ002,How long do I have to return a product?,The synthetic marketplace uses a standard 7-day return window for eligible products.,returns
+FAQ003,How do I request a return?,"Submit a support request with the order ID, product, reason, and requested evidence.",returns
+FAQ004,Can I return an opened laptop?,Opened electronics may require inspection and are subject to the applicable return conditions.,returns
+FAQ005,Can I return a smartphone?,"Eligible smartphones may be returned subject to the return window, condition, activation status, and verification.",returns
+FAQ006,Can I exchange a product for another model?,Exchanges depend on eligibility and replacement availability.,exchange
+FAQ007,Can I cancel my order?,Cancellation may be possible while an order is in an eligible processing stage.,cancellation
+FAQ008,Can I cancel after shipment?,"Once shipped, cancellation may no longer be available and the return process may apply.",cancellation
+FAQ009,How can I track my order?,Use the tracking number for a shipped order or contact support with the order ID.,shipping
+FAQ010,What does shipped mean?,Shipped means the order has been handed to the delivery process.,shipping
+FAQ011,What does processing mean?,Processing means the order is being prepared before shipment.,shipping
+FAQ012,What does delivered mean?,Delivered means the delivery system has recorded the order as delivered.,shipping
+FAQ013,What if delivery is delayed?,Contact support if the expected delivery date has passed and the order remains undelivered.,shipping
+FAQ014,What if my phone arrived damaged?,"Report the issue promptly with the order ID, product details, and photos when requested.",damaged_product
+FAQ015,Can I get a refund for a damaged laptop?,A damaged product may qualify for replacement or refund after verification.,refund
+FAQ016,How long does a refund take?,Refund timing depends on verification and the original payment provider.,refund
+FAQ017,Where is my refund credited?,Approved refunds are normally returned through the original payment method.,refund
+FAQ018,What payment methods are supported?,Supported payment methods are those displayed during checkout.,payment
+FAQ019,Why did my card payment fail?,"Payment may fail because of bank restrictions, incorrect details, verification issues, or gateway problems.",payment
+FAQ020,Was I charged if payment failed?,A failed payment may create a temporary authorization later reversed by the provider.,payment
+FAQ021,What if I received the wrong product?,Contact support with the order ID and product details so the mismatch can be investigated.,orders
+FAQ022,What if an item is missing?,Report the missing item with the order ID so fulfillment records can be checked.,orders
+FAQ023,Can I change my delivery address?,Address changes may be possible before shipment depending on order stage.,shipping
+FAQ024,Can I change my order after placing it?,Changes depend on whether the order has entered processing or shipment.,orders
+FAQ025,Do I need my order ID?,The order ID helps support locate the correct transaction.,support
+FAQ026,How can I find my order ID?,It is available in the order confirmation and account order history.,orders
+FAQ027,Can I get a replacement instead of a refund?,"Replacement availability depends on the product, issue, stock, and applicable policy.",exchange
+FAQ028,What if the replacement is unavailable?,An eligible refund or alternative resolution may be considered.,exchange
+FAQ029,Can I return one item from a multi-item order?,Partial returns may be possible depending on the order conditions.,returns
+FAQ030,What happens after a return request?,The request is reviewed and further evidence or pickup instructions may be provided.,returns
+FAQ031,Do I need original packaging?,Packaging and accessories may be required depending on the product and return condition.,returns
+FAQ032,What if the serial number does not match?,A serial-number mismatch may require manual verification.,damaged_product
+FAQ033,What if my phone is defective?,"Report the issue so support can determine whether return, replacement, or warranty handling applies.",damaged_product
+FAQ034,What if my laptop has a hardware problem?,Provide order and product details for the applicable support or warranty process.,damaged_product
+FAQ035,Can I get warranty support?,Yes. Provide product and order details so support can direct the case appropriately.,support
+FAQ036,Why was my order cancelled?,"Possible causes include payment, inventory, verification, or operational issues.",cancellation
+FAQ037,What happens after cancellation?,The order will not proceed to delivery and eligible payment follows the refund process.,cancellation
+FAQ038,Can I place another order after cancellation?,"Yes, a new order can be placed.",orders
+FAQ039,Can I track my refund?,Refund status can be checked through support or the payment system.,refund
+FAQ040,Can I get a refund for the wrong model?,An incorrect-product case may qualify for replacement or refund after verification.,refund
+FAQ041,What information is needed for damaged products?,"Provide order ID, product name, issue description, and evidence when requested.",damaged_product
+FAQ042,Can the AI issue a refund directly?,The AI must not claim a refund was issued unless an actual refund transaction was completed.,refund
+FAQ043,What if my question is not in the knowledge base?,The system should avoid guessing and can escalate to human support.,support
+FAQ044,I want to talk to a human.,The system can create a support ticket for human follow-up.,support
+FAQ045,Can I return an Apple product?,Eligible Apple products are subject to the marketplace return policy and product conditions.,returns
+FAQ046,Can I return a Samsung product?,Eligible Samsung products are subject to the marketplace return policy and product conditions.,returns
+FAQ047,Can I return Sony headphones?,"Eligibility depends on the return window, product condition, and applicable policy.",returns
+FAQ048,Can I exchange a laptop configuration?,Configuration exchanges depend on eligibility and availability.,exchange
+FAQ049,Can the system check whether I purchased a product?,Yes. The agent can verify orders and order items in PostgreSQL.,orders

@@ -1,0 +1,3 @@
+RETURN POLICY — SYNTHETIC ELECTRONICS MARKETPLACE
+
+Eligible products may generally be returned within 7 days of delivery, subject to product condition and category rules. Electronics may require inspection for activation status, physical damage, missing accessories, and serial-number verification. Customers should provide the order ID, product name, reason, and evidence when requested. A return request does not automatically mean a refund is approved. The system must verify the order in PostgreSQL before treating the case as customer-specific. Cases that cannot be verified should be escalated.

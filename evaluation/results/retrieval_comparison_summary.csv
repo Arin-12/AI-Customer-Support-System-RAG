@@ -1,0 +1,3 @@
+method,mrr_at_20,percentage,queries_with_relevant_source,queries_evaluated,k
+Plain FAISS,0.4196,41.96,10,10,20
+FAISS + topic reranking,0.5529,55.29,10,10,20

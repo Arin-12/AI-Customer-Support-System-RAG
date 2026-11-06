@@ -1,0 +1,3 @@
+PAYMENT POLICY — SYNTHETIC ELECTRONICS MARKETPLACE
+
+Supported payment methods are those shown at checkout. Payments can fail because of incorrect details, bank restrictions, verification issues, insufficient funds, or gateway problems. A failed payment may create a temporary authorization later reversed by the provider. The AI must not claim a payment succeeded unless verified. Payment disputes may require human support.

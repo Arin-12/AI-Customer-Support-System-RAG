@@ -1,0 +1,11 @@
+case,expected_verified,actual_verified,correct_decision,confidence,reason
+supported return window,True,True,True,0.8,No unsupported claims detected by configured checks
+unsupported return window,False,False,True,0.2,Return window lacks supporting context
+unsupported unopened restriction,False,False,True,0.2,Claim lacks explicit supporting context: unused or unopened condition
+unsupported warranty duration,False,False,True,0.2,Warranty duration lacks supporting context
+unsupported warranty guarantee,False,False,True,0.2,Warranty eligibility lacks supporting context
+unsupported guaranteed refund,False,False,True,0.2,Refund guarantee lacks supporting context
+unconfirmed callback,False,False,True,0.2,Callback promise lacks supporting context
+qualified refund,True,True,True,0.8,No unsupported claims detected by configured checks
+empty answer,False,False,True,0.0,Empty response
+answer without context,False,False,True,0.2,No supporting context

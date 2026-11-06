@@ -1,0 +1,48 @@
+
+# Python virtual environment
+ai_rag_env/
+venv/
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Vector database
+vector_db/faiss_index/
+
+# Logs
+logs/*.log
+
+# IDE settings
+.vscode/
+
+# React dependencies and build output
+node_modules/
+frontend/react-app/node_modules/
+frontend/react-app/dist/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+
+# Generated logs and vector database
+logs/
+vector_db/
+
+# Unrelated personal image
+WhatsApp Image *.jpeg
+
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Personal exports
+*.xlsx
+*.xls

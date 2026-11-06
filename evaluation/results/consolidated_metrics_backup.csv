@@ -1,0 +1,18 @@
+area,metric,target,actual,sample_size,status,limitations
+routing_escalation,Routing accuracy,>=95%,100.00%,11,MEETS TARGET,11 labelled routing scenarios; small sample
+routing_escalation,Escalation accuracy,>=95%,100.00%,4,MEETS TARGET,4 labelled escalation scenarios; small sample
+routing_escalation,Escalation precision,Measure baseline,100.00%,3,RECORDED,TP=3; FP=0
+routing_escalation,Escalation recall,Measure baseline,100.00%,3,RECORDED,TP=3; FN=0
+routing_escalation,Escalation F1,Measure baseline,100.00%,4,RECORDED,Harmonic mean of precision and recall
+policy,Verifier decision accuracy,Not specified,100.00%,10,RECORDED,Agreement with 10 labelled verifier cases; not end-to-end factual accuracy
+policy,Unsupported-claim acceptance rate,Not specified,0.00%,8,RECORDED,Lower is better; measured on labelled unsupported cases only
+policy,Supported-answer rejection rate,Not specified,0.00%,2,RECORDED,Lower is better; measured on labelled supported cases only
+order_security,Ownership scenario pass rate,100%,100.00%,4,PASS,Includes mocked helper cases; not end-to-end API security
+order_security,Unauthorized disclosures in tested helper cases,0,0,1,PASS,One mocked unauthorized-access case; API not tested
+conversation_isolation,Focused context-isolation test pass rate,100%,100%,3 tests,PRELIMINARY PASS,Previously executed pytest run: 3 passed. Not a broad end-to-end leak assessment.
+retrieval,Recall@5,>=90%,100%,8 queries,PRELIMINARY PASS,All 8 expected source files appeared in top 5. Small manually labelled sample.
+performance,HTTP success rate,>=99%,100%,10 requests,PRELIMINARY PASS,Sequential requests; not a load test.
+performance,API error rate,<=1%,0%,10 requests,PRELIMINARY PASS,No non-200 responses observed in this sample.
+performance,Mean response latency,Baseline first,1514.0 ms,10 requests,BASELINE,Sequential benchmark after a warm-up request.
+performance,Median response latency,Baseline first,1404.3 ms,10 requests,BASELINE,Sequential benchmark after a warm-up request.
+performance,Maximum observed latency,Baseline first,2568.5 ms,10 requests,BASELINE,Maximum of 10 samples; not a reliable p95 estimate.

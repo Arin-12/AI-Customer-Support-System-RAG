@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <title>SupportAI | Customer Support</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app-shell">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="brand">
+            <div class="brand-icon">✦</div>
+
+            <div>
+                <h1>SupportAI</h1>
+                <p>Customer Support</p>
+            </div>
+        </div>
+
+
+        <div class="sidebar-section">
+
+            <p class="section-title">
+                CUSTOMER
+            </p>
+
+            <label for="userId">
+                Customer ID
+            </label>
+
+            <div class="customer-input">
+                <span>👤</span>
+
+                <input
+                    type="number"
+                    id="userId"
+                    value="1"
+                    min="1"
+                    placeholder="Customer ID"
+                >
+            </div>
+
+        </div>
+
+
+        <div class="sidebar-section">
+
+            <p class="section-title">
+                QUICK HELP
+            </p>
+
+            <button
+                class="quick-action"
+                data-message="Where is my order?"
+            >
+                <span>📦</span>
+                Track my order
+            </button>
+
+            <button
+                class="quick-action"
+                data-message="Can I return a damaged product?"
+            >
+                <span>↩️</span>
+                Return a product
+            </button>
+
+            <button
+                class="quick-action"
+                data-message="What is your refund policy?"
+            >
+                <span>💳</span>
+                Refund policy
+            </button>
+
+            <button
+                class="quick-action"
+                data-message="I want to speak to a human agent."
+            >
+                <span>👨‍💼</span>
+                Talk to an agent
+            </button>
+
+        </div>
+
+
+        <div class="sidebar-footer">
+
+            <div class="security-badge">
+                <span>🔒</span>
+
+                <div>
+                    <strong>Secure Support</strong>
+                    <small>Your information is protected</small>
+                </div>
+            </div>
+
+        </div>
+
+    </aside>
+
+
+    <!-- Main application -->
+    <main class="main-content">
+
+        <!-- Top bar -->
+        <header class="topbar">
+
+            <div>
+                <h2>AI Customer Support</h2>
+
+                <p>
+                    RAG + PostgreSQL + Agentic AI
+                </p>
+            </div>
+
+
+            <div class="online-status">
+
+                <span class="online-dot"></span>
+
+                <span>AI Online</span>
+
+            </div>
+
+        </header>
+
+
+        <!-- Chat -->
+        <section class="chat-panel">
+
+            <div
+                id="chatMessages"
+                class="chat-messages"
+            >
+
+                <!-- Welcome message -->
+                <div class="message assistant">
+
+                    <div class="avatar assistant-avatar">
+                        ✦
+                    </div>
+
+                    <div class="message-content">
+
+                        <div class="message-label">
+                            SupportAI
+                            <span>Now</span>
+                        </div>
+
+                        <div class="message-bubble">
+
+                            <p>
+                                Hello! 👋
+                            </p>
+
+                            <p>
+                                I'm your AI customer support
+                                assistant. How can I help you
+                                today?
+                            </p>
+
+                            <div class="welcome-hints">
+
+                                <span>📦 Track an order</span>
+                                <span>↩️ Return a product</span>
+                                <span>💳 Refund information</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Response status -->
+            <div
+                id="resultInfo"
+                class="result-info hidden"
+            >
+
+                <div class="result-item">
+
+                    <span class="result-icon">
+                        ◉
+                    </span>
+
+                    <div>
+                        <small>Confidence</small>
+
+                        <strong id="confidenceValue">
+                            0%
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="sourceInfo"
+                    class="result-item hidden"
+                >
+
+                    <span class="result-icon">
+                        ✓
+                    </span>
+
+                    <div>
+                        <small>Verification</small>
+
+                        <strong id="sourceValue">
+                            Verified
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="escalationInfo"
+                    class="result-item escalation hidden"
+                >
+
+                    <span class="result-icon">
+                        !
+                    </span>
+
+                    <div>
+                        <small>Support</small>
+
+                        <strong>
+                            Human support requested
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="ticketInfo"
+                    class="result-item ticket hidden"
+                >
+
+                    <span class="result-icon">
+                        #
+                    </span>
+
+                    <div>
+                        <small>Ticket ID</small>
+
+                        <strong id="ticketId">
+                            -
+                        </strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Input area -->
+            <div class="input-container">
+
+                <div class="input-box">
+
+                    <input
+                        type="text"
+                        id="messageInput"
+                        placeholder="Ask anything about your order, returns, refunds..."
+                        autocomplete="off"
+                    >
+
+                    <button
+                        id="sendButton"
+                        aria-label="Send message"
+                    >
+                        ➤
+                    </button>
+
+                </div>
+
+                <p class="input-hint">
+                    Press Enter to send
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

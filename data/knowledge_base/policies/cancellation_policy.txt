@@ -1,0 +1,3 @@
+CANCELLATION POLICY — SYNTHETIC ELECTRONICS MARKETPLACE
+
+Customers may request cancellation while an order remains in an eligible processing stage. Shipped orders may no longer be cancellable. The AI must check PostgreSQL order status before confirming cancellation. Eligible paid cancellations follow the refund process. Unverified cases should be escalated.

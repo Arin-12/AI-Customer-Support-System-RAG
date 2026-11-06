@@ -1,0 +1,6 @@
+metric,target,actual,correct,sample_size,status,note
+Routing accuracy,>=95%,100.00%,11,11,MEETS TARGET,11 labelled routing scenarios; small sample
+Escalation accuracy,>=95%,100.00%,4,4,MEETS TARGET,4 labelled escalation scenarios; small sample
+Escalation precision,Measure baseline,100.00%,3,3,RECORDED,TP=3; FP=0
+Escalation recall,Measure baseline,100.00%,3,3,RECORDED,TP=3; FN=0
+Escalation F1,Measure baseline,100.00%,,4,RECORDED,Harmonic mean of precision and recall

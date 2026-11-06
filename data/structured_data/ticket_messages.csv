@@ -1,0 +1,51 @@
+message_id,ticket_id,sender_type,message,timestamp
+MSG001,TKT001,customer,My order has not arrived yet.,2026-09-02T10:15:00
+MSG002,TKT002,customer,Can you tell me when my order will arrive?,2026-09-03T10:15:00
+MSG003,TKT003,customer,I want to cancel my order.,2026-09-04T10:15:00
+MSG004,TKT004,customer,The product I received was damaged. Can I get a refund?,2026-09-05T10:15:00
+MSG005,TKT005,customer,The device I received is defective.,2026-09-06T10:15:00
+MSG006,TKT006,customer,Can I track my order?,2026-09-07T10:15:00
+MSG007,TKT007,customer,My payment failed while placing the order.,2026-09-08T10:15:00
+MSG008,TKT008,customer,I want to return the product from my order.,2026-09-09T10:15:00
+MSG009,TKT009,customer,Can I exchange this product for another configuration?,2026-09-10T10:15:00
+MSG010,TKT010,customer,My order was delivered successfully.,2026-09-11T10:15:00
+MSG011,TKT011,customer,My order has not arrived yet.,2026-09-12T10:15:00
+MSG012,TKT012,customer,Can you tell me when my order will arrive?,2026-09-13T10:15:00
+MSG013,TKT013,customer,I want to cancel my order.,2026-09-14T10:15:00
+MSG014,TKT014,customer,The product I received was damaged. Can I get a refund?,2026-09-15T10:15:00
+MSG015,TKT015,customer,The device I received is defective.,2026-09-16T10:15:00
+MSG016,TKT016,customer,Can I track my order?,2026-09-17T10:15:00
+MSG017,TKT017,customer,My payment failed while placing the order.,2026-09-18T10:15:00
+MSG018,TKT018,customer,I want to return the product from my order.,2026-09-19T10:15:00
+MSG019,TKT019,customer,Can I exchange this product for another configuration?,2026-09-20T10:15:00
+MSG020,TKT020,customer,My order was delivered successfully.,2026-09-01T10:15:00
+MSG021,TKT021,customer,My order has not arrived yet.,2026-09-02T10:15:00
+MSG022,TKT022,customer,Can you tell me when my order will arrive?,2026-09-03T10:15:00
+MSG023,TKT023,customer,I want to cancel my order.,2026-09-04T10:15:00
+MSG024,TKT024,customer,The product I received was damaged. Can I get a refund?,2026-09-05T10:15:00
+MSG025,TKT025,customer,The device I received is defective.,2026-09-06T10:15:00
+MSG026,TKT026,customer,Can I track my order?,2026-09-07T10:15:00
+MSG027,TKT027,customer,My payment failed while placing the order.,2026-09-08T10:15:00
+MSG028,TKT028,customer,I want to return the product from my order.,2026-09-09T10:15:00
+MSG029,TKT029,customer,Can I exchange this product for another configuration?,2026-09-10T10:15:00
+MSG030,TKT030,customer,My order was delivered successfully.,2026-09-11T10:15:00
+MSG031,TKT031,customer,My order has not arrived yet.,2026-09-12T10:15:00
+MSG032,TKT032,customer,Can you tell me when my order will arrive?,2026-09-13T10:15:00
+MSG033,TKT033,customer,I want to cancel my order.,2026-09-14T10:15:00
+MSG034,TKT034,customer,The product I received was damaged. Can I get a refund?,2026-09-15T10:15:00
+MSG035,TKT035,customer,The device I received is defective.,2026-09-16T10:15:00
+MSG036,TKT036,customer,Can I track my order?,2026-09-17T10:15:00
+MSG037,TKT037,customer,My payment failed while placing the order.,2026-09-18T10:15:00
+MSG038,TKT038,customer,I want to return the product from my order.,2026-09-19T10:15:00
+MSG039,TKT039,customer,Can I exchange this product for another configuration?,2026-09-20T10:15:00
+MSG040,TKT040,customer,My order was delivered successfully.,2026-09-01T10:15:00
+MSG041,TKT041,customer,My order has not arrived yet.,2026-09-02T10:15:00
+MSG042,TKT042,customer,Can you tell me when my order will arrive?,2026-09-03T10:15:00
+MSG043,TKT043,customer,I want to cancel my order.,2026-09-04T10:15:00
+MSG044,TKT044,customer,The product I received was damaged. Can I get a refund?,2026-09-05T10:15:00
+MSG045,TKT045,customer,The device I received is defective.,2026-09-06T10:15:00
+MSG046,TKT046,customer,Can I track my order?,2026-09-07T10:15:00
+MSG047,TKT047,customer,My payment failed while placing the order.,2026-09-08T10:15:00
+MSG048,TKT048,customer,I want to return the product from my order.,2026-09-09T10:15:00
+MSG049,TKT049,customer,Can I exchange this product for another configuration?,2026-09-10T10:15:00
+MSG050,TKT050,customer,My order was delivered successfully.,2026-09-11T10:15:00

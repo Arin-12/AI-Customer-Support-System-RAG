@@ -1,0 +1,35 @@
+
+[
+  {
+    "query": "What is the return policy for damaged electronics?",
+    "reference": "Damaged or defective electronics should be reported to customer support for verification. Depending on the case and applicable policy, the customer may qualify for a replacement or refund."
+  },
+  {
+    "query": "What is the general return policy?",
+    "reference": "Eligible products may generally be returned within 7 days of delivery, subject to product condition and category rules. Electronics may require inspection of activation status, physical damage, and missing accessories."
+  },
+  {
+    "query": "How do refunds work after a return?",
+    "reference": "Approved refunds are normally sent through the original payment method. Refund timing depends on verification and the original payment provider."
+  },
+  {
+    "query": "Can I exchange a product I purchased?",
+    "reference": "Eligible products may be exchanged subject to product condition and replacement availability. Model, storage, colour, or configuration changes depend on available inventory."
+  },
+  {
+    "query": "How can I cancel my order?",
+    "reference": "Customers may request cancellation while an order remains in an eligible processing stage. Shipped orders may no longer be cancellable, and the return process may apply."
+  },
+  {
+    "query": "How can I track my shipment and delivery?",
+    "reference": "Tracking may be available after shipment. Customers can use their tracking number or contact support with their order ID. If delivery is delayed beyond the expected date, they should contact support."
+  },
+  {
+    "query": "What payment methods and payment rules are supported?",
+    "reference": "Supported payment methods are those displayed during checkout. Payments may fail because of incorrect details, bank restrictions, verification issues, insufficient funds, or payment gateway problems."
+  },
+  {
+    "query": "What are the specifications of the Apple MacBook Air M2?",
+    "reference": "The Apple MacBook Air M2 is a laptop with a 13-inch variant, 8GB memory, and 256GB storage. Its reference price in the project product data is ₹99,900."
+  }
+]
