@@ -392,29 +392,8 @@ pytest
 
 **Evaluation note:** Results come from different experiments and evaluation datasets. They should not be interpreted as measurements from one common benchmark. Some routing, escalation, and verification results use small labelled test sets.
 
-## 12. Screenshots
 
-Add actual screenshots of your running application here.
-
-Suggested folder:
-
-```text
-docs/
-└── images/
-    ├── chat-interface.png
-    ├── return-policy.png
-    ├── order-tracking.png
-    ├── product-query.png
-    └── escalation.png
-```
-
-Display a screenshot using:
-
-```markdown
-![Customer Support Chat Interface](docs/images/chat-interface.png)
-```
-
-## 13. Project Demonstration
+## 12. Project Demonstration
 
 **Demo Video:** Add your project demonstration video link here.
 
@@ -427,7 +406,7 @@ Suggested demonstration flow:
 5. Demonstrate an order-related query.
 6. Demonstrate human support escalation.
 
-## 14. Limitations
+## 13. Limitations
 
 - Response quality depends on the quality and coverage of the knowledge base.
 - LLM-generated responses may occasionally be inaccurate.
@@ -435,7 +414,7 @@ Suggested demonstration flow:
 - Sample customer and order records are used for demonstration.
 - Production deployment requires additional security, monitoring, and database configuration.
 
-## 15. Future Enhancements
+## 14. Future Enhancements
 
 - Cloud deployment.
 - Improved retrieval and reranking techniques.
@@ -445,6 +424,6 @@ Suggested demonstration flow:
 - Advanced analytics dashboard.
 - Integration with real customer support platforms.
 
-## 16. Conclusion
+## 15. Conclusion
 
 The AI Customer Support System demonstrates the use of Retrieval-Augmented Generation to build an intelligent customer support assistant. By combining semantic document retrieval, LLM-based response generation, structured SQL retrieval, query routing, and escalation logic, the project provides a foundation for context-aware and AI-powered customer support.
